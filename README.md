@@ -36,3 +36,8 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 | Usage | `total_day_minutes`, `total_night_charge` |
 | Support | `customer_service_calls` |
 
+### Initial Insights:
+- **14.5% churn rate** (483 of 3333 customers)
+- International plan subscribers churn **4.5× more**
+- Electronic check users have 2.8× higher churn risk
+- 0 missing values in dataset
