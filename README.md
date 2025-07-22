@@ -28,7 +28,9 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
   - Subscription info (`international_plan`, `voice_mail_plan`)
   - Service interactions (`customer_service_calls`)
   - 
-**Target Variable:** `churn` (Binary: True/False)  
+**Target Variable:** `churn` (Binary: True/False) 
+
+![Churn Analysis](images/churn_distribution.jpg)
 
 ## Data Cleaning & Preparation
 
