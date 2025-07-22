@@ -55,7 +55,6 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 
 All models used pipelines with preprocessing and SMOTE for handling class imbalance.
 
-
 ### Techniques:
 - Train-test split (80/20)
 - GridSearchCV for hyperparameter tuning
@@ -84,9 +83,7 @@ Top 5 Features:
 4. `total_day_minutes`
 5. `voice_mail_plan_yes`
 
-![Feature Importance](images/feature_importance.png)
-
-
+images/top 15 features XGBoost.jpg
 ## Key Insights
 - Customers with an international plan are significantly more likely to churn.
 - Frequent customer service calls are strongly associated with churn.
