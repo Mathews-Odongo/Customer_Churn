@@ -51,4 +51,13 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 - **Random Forest**
 - **XGBoost (Best performer)**
 
+### Techniques:
+- Train-test split (80/20)
+- GridSearchCV for hyperparameter tuning
+- SMOTE for class imbalance
+- Evaluation metrics:
+  - Accuracy, Precision, Recall, F1-Score
+  - ROC-AUC Curve
+
+
 
