@@ -21,4 +21,6 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 3. Recommend targeted retention strategies
 4. Reduce churn rate by 30%
 
-
+# 📊 Data Understanding
+**Dataset:** 3,333 customer records with 20 features  
+**Source:** [SyriaTel Customer Data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)  
