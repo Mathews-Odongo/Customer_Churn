@@ -21,7 +21,7 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 3. Recommend targeted retention strategies
 4. Reduce churn rate by 30%
 
-# 📊 Data Understanding
+# Data Understanding
 **Dataset:** 3,333 customer records with 20 features  
 **Source:** [SyriaTel Customer Data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)  
 
@@ -44,5 +44,11 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
    - One-hot encoded `international_plan` and `voice_mail_plan`
 3. Standardized column names to snake_case
 4. Addressed class imbalance with SMOTE oversampling
+
+### Key Insights from EDA:
+- **14.5% churn rate** (significant class imbalance)
+- International plan subscribers churn **4.5× more**
+- Churners have **18% higher daytime charges**
+- Electronic check users churn **2.8× more**
 
 
