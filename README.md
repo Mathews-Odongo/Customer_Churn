@@ -36,8 +36,13 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 | Usage | `total_day_minutes`, `total_night_charge` |
 | Support | `customer_service_calls` |
 
-### Initial Insights:
-- **14.5% churn rate** (483 of 3333 customers)
-- International plan subscribers churn **4.5× more**
-- Electronic check users have 2.8× higher churn risk
-- 0 missing values in dataset
+## Data Preparation
+### Cleaning Steps:
+1. Removed `phone_number` (irrelevant identifier)
+2. Encoded categorical features:
+   - Label encoded `state` and `area_code`
+   - One-hot encoded `international_plan` and `voice_mail_plan`
+3. Standardized column names to snake_case
+4. Addressed class imbalance with SMOTE oversampling
+
+
