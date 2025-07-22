@@ -2,7 +2,7 @@
 
 ![Telecom Churn Analysis](images/telcomimage.jpg)
 
-**Author**: [Tracy Gwehona](mailto:wandera59@gmail.com) 
+**Author**: [Mathews Odongo](mailto:wandera59@gmail.com) 
 
 ## Overview
 This project develops a machine learning solution to predict customer churn for SyriaTel, a telecommunications company. By analyzing historical customer data, we identify at-risk customers and provide actionable retention strategies to reduce churn rates and improve profitability
@@ -46,12 +46,15 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
   - High `total_day_charge`
 - Statistical tests:
   - **T-test** and **Chi-square** to identify significant features
-    
-### Machinelearning Modeling
-### Models Used:
-- **Logistic Regression**
-- **Random Forest**
-- **XGBoost (Best performer)**
+
+## .Machine Learning Modeling
+### Models Trained:
+- `Logistic Regression` (baseline)
+- `Random Forest Classifier`
+- `XGBoost Classifier` (best performer)
+
+All models used pipelines with preprocessing and SMOTE for handling class imbalance.
+
 
 ### Techniques:
 - Train-test split (80/20)
@@ -69,11 +72,23 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 | XGBoost             | 0.77             | 0.85           | **0.81** | **0.93**|
 
 ### Best Model: `XGBoost`
-- **AUC Score**: 0.93
-- **Key Features**:
-  - `international_plan_yes`
-  - `total_day_charge`
-  - `customer_service_calls`
+- High precision + recall.
+- Best F1-score and ROC-AUC.
+- 
+## Feature Importance (XGBoost)
+
+Top 5 Features:
+1. `international_plan_yes`
+2. `total_day_charge`
+3. `customer_service_calls`
+4. `total_day_minutes`
+5. `voice_mail_plan_yes`
+
+
+![Feature Importance](images/feature_importance.png)
+
+
+
 ## Key Insights
 - Customers with an international plan are significantly more likely to churn.
 - Frequent customer service calls are strongly associated with churn.
@@ -85,9 +100,7 @@ The XGBoost model effectively predicts customer churn and identifies high-risk s
 - International plan users
 - High day-time usage customers
 
-## Author
 
-**Mathews Odongo**
 
 ## License
 MIT License 
