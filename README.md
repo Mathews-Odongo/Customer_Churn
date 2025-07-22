@@ -12,43 +12,43 @@ This project develops a machine learning solution to predict customer churn for 
 - 30% potential reduction in churn rate
   
 ### Business Understanding
+- **Goal**: Minimize churn rate by identifying customers likely to leave.
+- **Value**: Enables proactive customer retention campaigns
 ### Problem Statement
 Customer churn represents a major challenge for SyriaTel, with high churn rates directly impacting revenue and profitability. Traditional retention methods are inefficient and costly.
-
-### Objectives
-1. Predict churn probability with >90% accuracy
-2. Identify key churn drivers
-3. Recommend targeted retention strategies
-4. Reduce churn rate by 30%
 
 # Data Understanding
 **Dataset:** 3,333 customer records with 20 features  
 **Source:** [SyriaTel Customer Data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)  
-
+ **Target**: `churn` (binary: 0 = stayed, 1 = churned)
+ **Features**:
+  - Usage metrics (e`total_day_minutes`, `total_intl_charge`)
+  - Subscription info (`international_plan`, `voice_mail_plan`)
+  - Service interactions (`customer_service_calls`)
+  - 
 **Target Variable:** `churn` (Binary: True/False)  
 
-### Key Features:
+## Data Cleaning & Preparation
 
-| Category | Features |
-|----------|----------|
-| Account | `account_length`, `area_code` |
-| Services | `international_plan`, `voice_mail_plan` |
-| Usage | `total_day_minutes`, `total_night_charge` |
-| Support | `customer_service_calls` |
+- Removed duplicates and constant columns
+- Addressed class imbalance via SMOTE
+- Encoded categorical features using pipelines
+- Removed highly correlated features (`total_day_charge` and `total_day_minutes`)
 
-## Data Preparation
-### Cleaning Steps:
-1. Removed `phone_number` (irrelevant identifier)
-2. Encoded categorical features:
-   - Label encoded `state` and `area_code`
-   - One-hot encoded `international_plan` and `voice_mail_plan`
-3. Standardized column names to snake_case
-4. Addressed class imbalance with SMOTE oversampling
+## Exploratory Data Analysis (EDA)
 
-### Key Insights from EDA:
-- **14.5% churn rate** (significant class imbalance)
-- International plan subscribers churn **4.5× more**
-- Churners have **18% higher daytime charges**
-- Electronic check users churn **2.8× more**
+- Churn rate: ~14.5% (class imbalance)
+- Key churn indicators:
+  - High `customer_service_calls`
+  - Presence of `international_plan`
+  - High `total_day_charge`
+- Statistical tests:
+  - **T-test** and **Chi-square** to identify significant features
+    
+### Machinelearning Modeling
+### Models Used:
+- **Logistic Regression**
+- **Random Forest**
+- **XGBoost (Best performer)**
 
 
