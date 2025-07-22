@@ -21,4 +21,23 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 3. Recommend targeted retention strategies
 4. Reduce churn rate by 30%
 
+# 📊 Data Understanding
+**Dataset:** 3,333 customer records with 20 features  
+**Source:** [SyriaTel Customer Data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)  
 
+**Target Variable:** `churn` (Binary: True/False)  
+
+### Key Features:
+
+| Category | Features |
+|----------|----------|
+| Account | `account_length`, `area_code` |
+| Services | `international_plan`, `voice_mail_plan` |
+| Usage | `total_day_minutes`, `total_night_charge` |
+| Support | `customer_service_calls` |
+
+### Initial Insights:
+- **14.5% churn rate** (483 of 3333 customers)
+- International plan subscribers churn **4.5× more**
+- Electronic check users have 2.8× higher churn risk
+- 0 missing values in dataset
