@@ -82,8 +82,9 @@ Top 5 Features:
 3. `customer_service_calls`
 4. `total_day_minutes`
 5. `voice_mail_plan_yes`
+   
+![Feature Importance](images/top-15-features-XGBoost.jpg)
 
-images/top 15 features XGBoost.jpg
 ## Key Insights
 - Customers with an international plan are significantly more likely to churn.
 - Frequent customer service calls are strongly associated with churn.
