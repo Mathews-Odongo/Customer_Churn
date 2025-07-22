@@ -77,7 +77,7 @@ The XGBoost model effectively predicts customer churn and identifies high-risk s
 
 ## Author
 
-**Mathews Odongo 
+**Mathews Odongo**
 
 ## License
 MIT License 
