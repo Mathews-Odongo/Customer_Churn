@@ -58,6 +58,12 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 - Evaluation metrics:
   - Accuracy, Precision, Recall, F1-Score
   - ROC-AUC Curve
+### Best Model: `XGBoost`
+- **AUC Score**: 0.93
+- **Key Features**:
+  - `international_plan_yes`
+  - `total_day_charge`
+  - `customer_service_calls`
 
 
 
