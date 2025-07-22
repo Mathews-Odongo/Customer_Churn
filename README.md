@@ -64,6 +64,12 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
   - `international_plan_yes`
   - `total_day_charge`
   - `customer_service_calls`
+## Key Insights
+- Customers with an international plan are significantly more likely to churn.
+- Frequent customer service calls are strongly associated with churn.
+- Daytime call usage and charges are predictive of dissatisfaction.
+
+
 
 
 
