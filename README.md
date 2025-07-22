@@ -24,3 +24,15 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 # 📊 Data Understanding
 **Dataset:** 3,333 customer records with 20 features  
 **Source:** [SyriaTel Customer Data](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)  
+
+**Target Variable:** `churn` (Binary: True/False)  
+
+### Key Features:
+
+| Category | Features |
+|----------|----------|
+| Account | `account_length`, `area_code` |
+| Services | `international_plan`, `voice_mail_plan` |
+| Usage | `total_day_minutes`, `total_night_charge` |
+| Support | `customer_service_calls` |
+
