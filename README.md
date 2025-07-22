@@ -69,6 +69,11 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 - Frequent customer service calls are strongly associated with churn.
 - Daytime call usage and charges are predictive of dissatisfaction.
 
+## Conclusion
+The XGBoost model effectively predicts customer churn and identifies high-risk segments. These insights enable SyriaTel to take proactive steps in customer retention, especially targeting:
+- High service callers
+- International plan users
+- High day-time usage customers
 
 
 
