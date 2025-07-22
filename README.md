@@ -75,6 +75,15 @@ The XGBoost model effectively predicts customer churn and identifies high-risk s
 - International plan users
 - High day-time usage customers
 
+## Author
+
+**Mathews Odongo 
+
+## License
+MIT License 
+This project is for educational purposes only.
+
+
 
 
 
