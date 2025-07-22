@@ -1,4 +1,4 @@
-# # SyriaTel Customer Churn Prediction
+## SyriaTel Customer Churn Prediction
 
 ![Telecom Churn Analysis](images/telcomimage.jpg)
 
