@@ -14,3 +14,11 @@ This project develops a machine learning solution to predict customer churn for 
 ### Business Understanding
 ### Problem Statement
 Customer churn represents a major challenge for SyriaTel, with high churn rates directly impacting revenue and profitability. Traditional retention methods are inefficient and costly.
+
+### Objectives
+1. Predict churn probability with >90% accuracy
+2. Identify key churn drivers
+3. Recommend targeted retention strategies
+4. Reduce churn rate by 30%
+
+
