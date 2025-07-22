@@ -51,4 +51,39 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 - **Random Forest**
 - **XGBoost (Best performer)**
 
+### Techniques:
+- Train-test split (80/20)
+- GridSearchCV for hyperparameter tuning
+- SMOTE for class imbalance
+- Evaluation metrics:
+  - Accuracy, Precision, Recall, F1-Score
+  - ROC-AUC Curve
+### Best Model: `XGBoost`
+- **AUC Score**: 0.93
+- **Key Features**:
+  - `international_plan_yes`
+  - `total_day_charge`
+  - `customer_service_calls`
+## Key Insights
+- Customers with an international plan are significantly more likely to churn.
+- Frequent customer service calls are strongly associated with churn.
+- Daytime call usage and charges are predictive of dissatisfaction.
+
+## Conclusion
+The XGBoost model effectively predicts customer churn and identifies high-risk segments. These insights enable SyriaTel to take proactive steps in customer retention, especially targeting:
+- High service callers
+- International plan users
+- High day-time usage customers
+
+## Author
+
+**Mathews Odongo**
+
+## License
+MIT License 
+This project is for educational purposes only.
+
+
+
+
 
