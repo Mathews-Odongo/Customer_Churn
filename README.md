@@ -2,6 +2,8 @@
 
 ![Telecom Churn Analysis](images/telcomimage.jpg)
 
+**Author**: [Tracy Gwehona](mailto:wandera59@gmail.com) 
+
 ## Overview
 This project develops a machine learning solution to predict customer churn for SyriaTel, a telecommunications company. By analyzing historical customer data, we identify at-risk customers and provide actionable retention strategies to reduce churn rates and improve profitability
 
@@ -58,6 +60,14 @@ Customer churn represents a major challenge for SyriaTel, with high churn rates 
 - Evaluation metrics:
   - Accuracy, Precision, Recall, F1-Score
   - ROC-AUC Curve
+## Model Performance Comparison
+
+| Model               | Precision (Churn) | Recall (Churn) | F1-Score | ROC-AUC |
+|---------------------|------------------|----------------|----------|---------|
+| Logistic Regression | 0.51             | **0.86**       | 0.64     | 0.88    |
+| Random Forest       | **0.81**         | 0.73           | 0.77     | 0.93    |
+| XGBoost             | 0.77             | 0.85           | **0.81** | **0.93**|
+
 ### Best Model: `XGBoost`
 - **AUC Score**: 0.93
 - **Key Features**:
