@@ -74,6 +74,20 @@ All models used pipelines with preprocessing and SMOTE for handling class imbala
 ### Best Model: `XGBoost`
 - High precision + recall.
 - Best F1-score and ROC-AUC.
+- 
+## Feature Importance (XGBoost)
+
+Top 5 Features:
+1. `international_plan_yes`
+2. `total_day_charge`
+3. `customer_service_calls`
+4. `total_day_minutes`
+5. `voice_mail_plan_yes`
+
+
+![Feature Importance](images/feature_importance.png)
+
+
 
 ## Key Insights
 - Customers with an international plan are significantly more likely to churn.
