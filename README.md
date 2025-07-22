@@ -84,9 +84,7 @@ Top 5 Features:
 4. `total_day_minutes`
 5. `voice_mail_plan_yes`
 
-
 ![Feature Importance](images/feature_importance.png)
-
 
 
 ## Key Insights
