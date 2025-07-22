@@ -83,7 +83,7 @@ Top 5 Features:
 4. `total_day_minutes`
 5. `voice_mail_plan_yes`
    
-![Feature Importance](images/top-15-features-XGBoost.jpg)
+![Feature Importance](images/top%2015%20features%20XGBoost.jpg)
 
 ## Key Insights
 - Customers with an international plan are significantly more likely to churn.
