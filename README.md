@@ -66,16 +66,21 @@ All models used pipelines with preprocessing and SMOTE for handling class imbala
   - ROC-AUC Curve
 ## Model Performance Comparison
 
-| Model               | Precision (Churn) | Recall (Churn) | F1-Score | ROC-AUC |
-|---------------------|------------------|----------------|----------|---------|
-| Logistic Regression | 0.51             | 0.84           | 0.64     | 0.88    |
-| Random Forest       | 0.81             | 0.73           | 0.77     | 0.93    |
-| XGBoost             | 0.77             | 0.85           | 0.81     | 0.93    |
 
-### Best Model: `XGBoost`
-- High precision + recall.
-- Best F1-score and ROC-AUC.
-- 
+| Model               | Accuracy | ROC-AUC | Precision | Recall | F1-Score |
+|--------------------|----------|---------|-----------|--------|----------|
+| Logistic Regression| ~85%     | 0.88    | 0.51      | **0.86** | 0.64     |
+| Random Forest       | ~90%     | 0.91    | **0.81**  | 0.73   | 0.77     |
+| XGBoost             | **94%**  | **0.93**| 0.77      | 0.85   | **0.81** |
+
+---
+
+###  Summary
+
+- **XGBoost**: Best overall — high accuracy, balanced precision/recall. Ideal for deployment.
+- **Random Forest**: Strong backup with good balance and interpretability.
+- **Logistic Regression**: Most interpretable, high recall but lower precision — useful for insights.
+
 ## Feature Importance (XGBoost)
 
 Top 5 Features:
