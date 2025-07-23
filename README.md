@@ -1,6 +1,6 @@
 ## SyriaTel Customer Churn Prediction
 
-![Telecom Churn Analysis](images/telcomimage.jpg)
+[Telecom Churn](images/customer%20churn.png)
 
 **Author**: [Mathews Odongo](mailto:wandera59@gmail.com) 
 
