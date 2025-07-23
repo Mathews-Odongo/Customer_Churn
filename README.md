@@ -68,9 +68,9 @@ All models used pipelines with preprocessing and SMOTE for handling class imbala
 
 | Model               | Precision (Churn) | Recall (Churn) | F1-Score | ROC-AUC |
 |---------------------|------------------|----------------|----------|---------|
-| Logistic Regression | 0.51             | **0.86**       | 0.64     | 0.88    |
-| Random Forest       | **0.81**         | 0.73           | 0.77     | 0.93    |
-| XGBoost             | 0.77             | 0.85           | **0.81** | **0.93**|
+| Logistic Regression | 0.51             | 0.84           | 0.64     | 0.88    |
+| Random Forest       | 0.81             | 0.73           | 0.77     | 0.93    |
+| XGBoost             | 0.77             | 0.85           | 0.81     | 0.93    |
 
 ### Best Model: `XGBoost`
 - High precision + recall.
